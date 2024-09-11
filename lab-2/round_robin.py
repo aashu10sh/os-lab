@@ -60,7 +60,6 @@ def find_avg_time(processes: list[Process], time_quantum: int):
     print(
         "Processes  Arrival time  Burst time  Completion time  Waiting time  Turnaround time"
     )
-
     for process in processes:
         if not process.waiting_time:
             continue
